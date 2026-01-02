@@ -1,0 +1,18 @@
+# Streamlit secrets (VERY IMPORTANT)
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+
+# Data
+*.csv
+!my_search_list.csv
+
+# OS
+.DS_Store
