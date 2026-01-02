@@ -114,11 +114,6 @@ tabs = st.tabs(["📋 Batch Search", "🔍 Single Search"])
 # -----------------------------------------------------------------------------
 with tabs[0]:
     st.markdown("### Batch Search Manager")
-# -----------------------------------------------------------------------------
-# TAB 1: BATCH SEARCH (Merged Monitor + Profile) -> Now Default
-# -----------------------------------------------------------------------------
-with tabs[0]:
-    st.markdown("### Batch Search Manager")
     
     # Callback for CSV Upload
     def load_csv_data():
